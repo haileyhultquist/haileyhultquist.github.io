@@ -1,0 +1,9 @@
+.container {
+ display: grid;
+ grid-template-columns: 128px auto;
+ column-gap: 15px;
+}
+
+h3 {
+  margin-top: 0px;
+}

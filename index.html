@@ -2,11 +2,34 @@
 <html>
   <head>
     <title>Hailey Hultquist</title>
+    <link rel='stylesheet' href='style.css'/>
   </head>
   <body>
     <h1>Projects</h1>
-    <a href = "https://lichess.org/b9Qh1o7S#28">Chess Bot Demo</a>
+    <div class='container'>
+      <div><img src='images/chess-bot-demo.png' alt='Chess Bot Demo' width=128 height=128></div>
+      <div class='text'>
+        <h3>Chess AI</h3>
+        <p>
+          This is a Minimax based Chess AI that I wrote in Java.
+          I added several Minimax optimizations (alpha-beta pruning, transposition tables, move-ordering heuristics, etc),
+          an opening book generated from GM moves, and checkmating patterns for common endgames.
+          It is also registered as a bot account on lichess.org, where it was adequate enough to defeat Stockfish Level 5.
+        </p>
+        <a href = 'https://lichess.org/b9Qh1o7S#28'>Demo</a>
+      </div>
+    </div>
     <br/>
-    <a href = "https://www.youtube.com/watch?v=vO_CVgGOdS4">Maze Demo</a>
+    <div class='container'>
+      <div><img src='images/maze-demo.png' alt='Maze Demo' width=128 height=128></div>
+      <div class='text'>
+        <h3>Maze Generator and Solver</h3>
+        <p>
+          This project generates mazes in a variety of shapes using the Aldous-Broder and Recursive Backtracking generation algorithms.
+          The mazes can be solved by hand using the arrow keys, or algorithmically using Depth-First Search, Dijkstra's Algorithm, and A-Star Search.
+        </p>
+        <a href = 'https://www.youtube.com/watch?v=vO_CVgGOdS4'>Demo</a>
+      </div>
+    </div>
   </body>
 </html>
